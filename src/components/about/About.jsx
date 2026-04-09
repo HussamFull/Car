@@ -6,6 +6,7 @@ export default function About() {
       <section id="about" className="about">
   <div className="container" data-aos="fade-up">
     <div className="row">
+      
       <div className="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay={100}>
         <img src="assets/img/about.png" className="img-fluid" alt />
       </div>
@@ -27,9 +28,9 @@ export default function About() {
           <li>
             <i className="ri-check-double-line" /> Komplette Ausstattung: Wir bieten alle notwendigen Annehmlichkeiten für einen komfortablen Aufenthalt, darunter eine voll ausgestattete Küche, ein modernes Badezimmer und ein gemütliches Wohnzimmer.
           </li>
-          
+         
           <li>
-            <i className="ri-check-double-line" /> Atemberaubende Aussichten: Genießen Sie Panoramablicke auf die Wahrzeichen Wiens aus den Fenstern des Apartments.
+            <i className="ri-check-double-line" />Wohlfühlen mit schöner Aussicht: Genießen Sie einen angenehmen Ausblick und lichtdurchflutete Räume, die zum Entspannen einladen.
           </li>
            <li>
             <i className="ri-check-double-line" />           Privatsphäre und Ruhe: Das Apartment bietet eine ruhige und private Atmosphäre, die Ihnen Entspannung nach einem langen Erkundungstag garantiert.

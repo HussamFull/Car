@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero10.png") top center;
+  background: url("../img/hero4.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -1339,4 +1339,26 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+
+
+/* إزالة التنسيقات الافتراضية للرابط وجعل النص أسود */
+.service-card-link {
+  text-decoration: none !important;
+  color: #000000 !important; /* لون أسود للنص */
+  display: block;
+  width: 100%;
+}
+
+/* عند مرور الماوس (Hover) يتحول النص للأصفر */
+.service-card-link:hover h4, 
+.service-card-link:hover p {
+  color: #ffc107 !important; /* لون أصفر (يمكنك تعديل الدرجة) */
+  transition: 0.3s; /* نعومة في تغيير اللون */
+}
+
+/* الحفاظ على شكل الأيقونة كما هو في الثيم الخاص بك */
+.service-card-link .icon-box {
+  transition: all 0.3s ease-in-out;
 }

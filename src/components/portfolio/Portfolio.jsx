@@ -151,6 +151,7 @@ export default function Portfolio() {
       </div>
     </div>
   </section>
+
   {/* End Portfolio Section */}
   {/* ======= Counts Section ======= */}
   <section id="counts" className="counts">
@@ -159,11 +160,9 @@ export default function Portfolio() {
         <div className="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay={100} />
         <div className="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay={100}>
           <div className="content d-flex flex-column justify-content-center">
-            <h3>Professioneller Umzugsservice: Stressfreier Umzug garantiert!</h3>
+            <h3>Exklusiver Aufenthalt & Erstklassige Mobilität: Ihr Rundum-Service in Wien!</h3>
             <p>
-              Planen Sie einen Umzug? Lassen Sie uns Ihnen helfen! Unsere erfahrene Umzugsfirma bietet Ihnen einen zuverlässigen und professionellen Service für Ihren reibungslosen Umzug.
-
-Warum uns wählen?
+            Planen Sie eine Reise nach Wien? Wir machen Ihren Aufenthalt unvergesslich! Unser Service vereint stilvolles Wohnen mit sicherem und komfortablem Transport. Warum Sie uns wählen sollten?
             </p>
             <div className="row">
               <div className="col-md-6 d-md-flex align-items-md-stretch">
@@ -171,7 +170,7 @@ Warum uns wählen?
                   <i className="bi bi-emoji-smile" />
                   <span data-purecounter-start={0} data-purecounter-end={65} data-purecounter-duration={2} className="purecounter" />
                   <p>
-                    <strong>Erfahrene und freundliche Mitarbeiter,</strong>  die Ihre Bedürfnisse verstehen.
+                    <strong>🛒 Stilvolles Apartment:</strong>  Ein Zuhause mit Wohlfühlfaktor, modern ausgestattet und in bester Lage für Ihre Erkundungen.
                   </p>
                 </div>
               </div>
@@ -180,7 +179,7 @@ Warum uns wählen?
                   <i className="bi bi-journal-richtext" />
                   <span data-purecounter-start={0} data-purecounter-end={85} data-purecounter-duration={2} className="purecounter" />
                   <p>
-                    <strong>Sorgfältige</strong>  Handhabung Ihrer persönlichen Gegenstände.
+                    <strong>🚗 Exklusiver Fahrservice:</strong>  Sichere und pünktliche Fahrten mit erfahrenen Fahrern – vom Flughafentransfer bis zur Stadttour.
                   </p>
                 </div>
               </div>
@@ -189,7 +188,7 @@ Warum uns wählen?
                   <i className="bi bi-clock" />
                   <span data-purecounter-start={0} data-purecounter-end={35} data-purecounter-duration={4} className="purecounter" />
                   <p>
-                    <strong>Pünktlichkeit</strong> und Zuverlässigkeit in unserem Service.
+                    <strong>⏱️ Pünktlichkeit & Vertrauen:</strong> Wir schätzen Ihre Zeit. Verlässlichkeit und höchste Diskretion sind das Fundament unseres Services.
                   </p>
                 </div>
               </div>
@@ -198,7 +197,7 @@ Warum uns wählen?
                   <i className="bi bi-award" />
                   <span data-purecounter-start={0} data-purecounter-end={20} data-purecounter-duration={4} className="purecounter" />
                   <p>
-<strong>Maßgeschneiderte Lösungen</strong>, die Ihren Anforderungen gerecht werden.
+<strong>✨Individuelle Betreuung:</strong> Maßgeschneiderte Lösungen, die genau auf Ihre Bedürfnisse und Wünsche zugeschnitten sind.
                   </p>
                 </div>
               </div>
@@ -219,12 +218,11 @@ Warum uns wählen?
           <div className="swiper-slide">
             <div className="testimonial-item">
               <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt />
-              <h3>Herr  Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              <h3>Herr Alnabelsi</h3>
+              <h4>Inhaber &amp; Ihr Gastgeber in Wien</h4>
               <p>
                 <i className="bx bxs-quote-alt-left quote-icon-left" />
-                Von der Planung bis zur Ausführung kümmern wir uns um jeden Schritt Ihres Umzugsprozesses, damit Sie sich entspannt zurücklehnen können. Kontaktieren Sie uns jetzt für ein unverbindliches Angebot und lassen Sie uns Ihren Umzug stressfrei gestalten!
-
+                    Mein Ziel ist es, Ihnen nicht nur eine Unterkunft, sondern ein erstklassiges Erlebnis in Wien zu bieten. Von der komfortablen Wohnung bis hin zum zuverlässigen Fahrservice – wir kümmern uns um jedes Detail Ihrer Reise, damit Sie Ihren Aufenthalt in vollen Zügen genießen können.
                 <i className="bx bxs-quote-alt-right quote-icon-right" />
               </p>
             </div>

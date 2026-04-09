@@ -10,15 +10,15 @@ export default function Footer() {
       <div className="row">
         <div className="col-lg-6 col-md-6">
           <div className="footer-info">
-            <h3>Umzug <span>Transport Group.</span></h3>
+            <h3>Cozy <span>Home Vienna</span></h3>
             <p>
-              Am Haferfeld 15, <br />86156 Augsburg<br /> <br />
-              <strong>Phone:</strong> +49 157 591 295 00<br />
-              <strong>Email:</strong> info@umzügetransportgroup.de<br />
+              Wilhelminenstraße 31, <br />1160 Wien <br /> <br />
+              <strong>Phone:</strong> ⁦ +43 660 73 63 869 ⁩<br />
+              <strong>Email:</strong>  cozyhomevienna1160@gmail.com<br />
             </p>
             <div className="social-links mt-3">
-              <a href="https://www.facebook.com/share/1Ni2XmzmMZ/" className="facebook"><i className="bx bxl-facebook" /></a>
-              <a href="https://www.instagram.com/abdulkarimahaj?utm_source=qr&igsh=YzZkMjNkb3ptdDZw" className="instagram"><i className="bx bxl-instagram" /></a>
+              <a href="https://www.facebook.com/" className="facebook"><i className="bx bxl-facebook" /></a>
+              <a href="https://www.instagram.com/" className="instagram"><i className="bx bxl-instagram" /></a>
 
               
             </div>
@@ -80,10 +80,10 @@ export default function Footer() {
   </div>
   <div className="container">
     <div className="copyright">
-      © Copyright <strong><span>Umzug Transport Group.</span></strong>. All Rights Reserved
+      © Copyright <strong><span>Cozy Home Vienna.</span></strong>. All Rights Reserved
     </div>
     <div className="credits">
-      Designed by <a href="#">Umzug Transport Group.</a>
+      Designed by <a href="#">Hussam Alnabelsi.</a>
     </div>
   </div>
 </footer>

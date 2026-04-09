@@ -12,7 +12,8 @@ export default function Hero() {
     <div className="row justify-content-center" data-aos="fade-up" data-aos-delay={150}>
       <div className="col-xl-6 col-lg-8">
         <h1>Cozy <span>Home Vienna</span></h1>
-        <h2>Komfortable Apartments <span>& VIP-Zubringer</span>
+        <h2><span>With Balcony</span></h2>
+        <h2>Komfortable Apartments <span>& VIP-Transfer service</span>
           
         </h2>
       </div>
@@ -21,7 +22,7 @@ export default function Hero() {
       <div className="col-xl-2 col-md-4">
         <div className="icon-box">
           <i className="ri-store-line" />
-          <h3><a href="https://wa.me/qr/UD7U74XZS6PXN1" >Kontaktieren Sie uns</a>
+          <h3><a href="https://wa.me/qr/UD7U74XZS6PXN1" >Book now</a>
 </h3>
         </div>
       </div>

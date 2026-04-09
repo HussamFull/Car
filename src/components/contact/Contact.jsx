@@ -38,7 +38,7 @@ export default function Contact() {
       <p>Kontaktieren Sie uns</p>
     </div>
     <div>
-      <iframe style={{border: 0, width: '100%', height: 270}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160687.06137576685!2d10.904760457965963!3d48.40492317725709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ebcf107771cad%3A0x8779b685da0a518c!2sAm%20Haferfeld%2015!5e1!3m2!1sar!2sde!4v1758740511173!5m2!1sar!2sde" frameBorder={0} allowFullScreen />
+      <iframe style={{border: 0, width: '100%', height: 270}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.5006907571783!2d16.319626423742083!3d48.21623267125237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d080c8e7fea6f%3A0x2882e0e72efa1bd0!2zV2lsaGVsbWluZW5zdHJhw59lIDMxLCAxMTYwIFdpZW4sINin2YTZhtmF2LPYpw!5e0!3m2!1sar!2sde!4v1775772328544!5m2!1sar!2sde" frameBorder={0} allowFullScreen />
     </div>
     <div className="row mt-5">
       <div className="col-lg-4">
@@ -46,17 +46,17 @@ export default function Contact() {
           <div className="address">
             <i className="bi bi-geo-alt" />
             <h4>Location:</h4>
-            <p>Am Haferfeld 15, 86156 Augsburg</p>
+            <p>Wilhelminenstraße 31, 1160 Wien</p>
           </div>
           <div className="email">
             <i className="bi bi-envelope" />
             <h4>Email:</h4>
-            <p>info@umzügetransportgroup.de</p>
+            <p>cozyhomevienna1160@gmail.com</p>
           </div>
           <div className="phone">
             <i className="bi bi-phone" />
             <h4>Call:</h4>
-            <p>+49 157 591 295 00</p>
+            <p>⁦ +43 660 73 63 869 ⁩</p>
           </div>
         </div>
       </div>

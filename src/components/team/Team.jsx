@@ -15,7 +15,7 @@ export default function Team() {
       <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
         <div className="member" data-aos="fade-up" data-aos-delay={100}>
           <div className="member-img">
-            <img src="assets/img/team/team-1.jpg" className="img-fluid" alt />
+            <img src="assets/img/team/team-1.png" className="img-fluid" alt />
             <div className="social">
               <a href><i className="bi bi-twitter" /></a>
               <a href><i className="bi bi-facebook" /></a>
@@ -24,7 +24,7 @@ export default function Team() {
             </div>
           </div>
           <div className="member-info">
-            <h4> Mala </h4>
+            <h4> Wassem </h4>
             <span>Chief Executive Officer</span>
           </div>
         </div>
