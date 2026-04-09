@@ -9,7 +9,8 @@ import Team from "./components/team/Team.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Impressum from "./pages/policy/Impressum.jsx";
 import Datenschutzerklaerung from "./pages/policy/Datenschutzerklaerung.jsx";
-import Car from "./components/Car/Car.jsx";
+import Car from "./components/car/Car.jsx";
+
 import Apartment from "./components/apartment/Apartment.jsx";
 
 
