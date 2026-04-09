@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="col-xl-2 col-md-4">
         <div className="icon-box">
           <i className="ri-store-line" />
-          <h3><a href="https://wa.me/message/" >Kontaktieren Sie uns</a>
+          <h3><a href="https://wa.me/qr/UD7U74XZS6PXN1" >Kontaktieren Sie uns</a>
 </h3>
         </div>
       </div>

@@ -51,7 +51,7 @@ export default function Navbar() {
               onClick={handleMobileNavToggle}
             />
           </nav>
-          <a href="https://wa.me/message/" className="get-started-btn scrollto">Kontaktieren Sie uns</a>
+          <a href="https://wa.me/qr/UD7U74XZS6PXN1" className="get-started-btn scrollto">Kontaktieren Sie uns</a>
         
 
         </div>
@@ -59,3 +59,5 @@ export default function Navbar() {
     </>
   );
 }
+
+
