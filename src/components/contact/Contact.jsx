@@ -11,9 +11,9 @@ export default function Contact() {
     e.preventDefault();
 
 
-    const serviceId = 'service_ylp81l1';
-    const templateId = 'template_p7yktv8';
-    const publicKey = '17heQmHgnxfZgh-gM';
+    const serviceId = 'service_p6g7o28';
+    const templateId = 'template_uyv7nnj';
+    const publicKey = '6RUFfnDR32bhtNhi_';
 
     emailjs.sendForm(serviceId, templateId, form.current, publicKey)
       .then((result) => {
