@@ -15,34 +15,34 @@ const Impressum = () => {
 
         <div className={styles.impressumCard}>
           <h3>Contact</h3>
-          <p><strong>Telefon:</strong> 01575 9129500</p>
-          <p><strong>E-Mail:</strong> <a href="mailto:umzugtransportservice6@gmail.com">umzugtransportservice6@gmail.com</a></p>
+          <p><strong>Telefon:</strong> ⁦+43 660 7363869⁩</p>
+          <p><strong>E-Mail:</strong> <a href="mailto:cozyhomevienna1160@gmail.com">cozyhomevienna1160@gmail.com</a></p>
         </div>
 
 
         <div className={styles.impressumCard}>
           <h3>Verantwortlich für den Inhalt</h3>
-          <p>Abdulkarim Haj</p>
-          <p>Am Haferfeld 15, 86156 Augsburg</p>
+          <p>Wassim Alnabelsi</p>
+          <p>Wilhelminenstraße 31, 1160 Wien</p>
         </div>
 
 
         <div className={styles.impressumCard}>
           <h3>Handelsregister</h3>
-          <p><strong>Mitgliedsnr.</strong> 05751840</p>
-          <p><strong>Registergericht:</strong> IHK Industrie und Handelskammer Schwaben - Augsburg</p>
+          <p><strong>Mitgliedsnr.</strong> 00000000 </p>
+          <p><strong>Registergericht:</strong>  </p>
         </div>
         
 
         <div className={styles.impressumCard}>
           <h3>Umsatzsteuer-ID</h3>
-          <p><strong>Umsatzsteuer-Identifikationsnummer:</strong> 31 198 246 073</p>
+          <p><strong>Umsatzsteuer-Identifikationsnummer:</strong> </p>
         </div>
         
 
         <div className={styles.impressumCard}>
           <h3>Berufsbezeichnung</h3>
-          <p><strong>Berufsbezeichnung:</strong> Transport, Umzug, Lastentaxi</p>
+          <p><strong>Berufsbezeichnung:</strong> taxi</p>
         </div>
 
 
