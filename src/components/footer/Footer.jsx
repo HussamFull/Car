@@ -83,7 +83,7 @@ export default function Footer() {
       © Copyright <strong><span>Cozy Home Vienna.</span></strong>. All Rights Reserved
     </div>
     <div className="credits">
-      Designed by <a href="#">Hussam Alnabelsi.</a>
+      Designed by <a href="https://hussamfull.github.io/iPortfolio3/">Hussam Alnabelsi.</a>
     </div>
   </div>
 </footer>
