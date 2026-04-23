@@ -75,10 +75,16 @@ export default function Portfolio() {
 
     // قائمة الصور الخاصة بالشقق
     const apartmentImages = [
-        "Slide1", "Slide2", "Slide3", "Slide4", "Slide5", "Slide6", 
-        "Slide7", "Slide8", "Slide9", "Slide10", "Slide11", "Slide12", 
+        "Slide8","Slide1", "Slide2", "Slide3", "Slide4", "Slide5", "Slide6", 
+        "Slide7",  "Slide9", "Slide10", "Slide11", "Slide12", 
         "Slide13", "Slide14", "Slide15", "Slide16", "Slide17", "Slide18"
     ];
+
+    // مصفوفة السيارات (قم بتغيير الأسماء حسب ملفاتك)
+const carImages = ["car1", "car2", "car3"]; 
+
+// مصفوفة الخدمات
+const serviceImages = ["service1", "service2"];
 
     return (
         <div>
@@ -128,16 +134,39 @@ export default function Portfolio() {
                                 </div>
                             </div>
                         ))}
+{/* 2. قسم السيارات - Car */}
+    {carImages.map((imgName, index) => (
+        <div key={`car-${index}`} className="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div className="portfolio-wrap">
+                <img src={`/assets/img/portfolio/${imgName}.PNG`} className="img-fluid" alt="Car" />
+                <div className="portfolio-info">
+                    <h4>Car Service</h4>
+                    <div className="portfolio-links">
+                        <a href={`/assets/img/portfolio/${imgName}.PNG`} className="portfolio-lightbox" data-gallery="portfolioGallery">
+                            <i className="bx bx-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    ))}
 
-                        {/* قسم السيارات (فارغ حالياً، سيظهر عند الضغط على All فقط حتى تضيف صوراً بكلاس filter-card) */}
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                            {/* مستقبلاً: ضع كود صور السيارات هنا */}
-                        </div>
-
-                        {/* قسم الخدمات (فارغ حالياً، سيظهر عند الضغط على All فقط حتى تضيف صوراً بكلاس filter-web) */}
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                            {/* مستقبلاً: ضع كود صور الخدمات هنا */}
-                        </div>
+    {/* 3. قسم الخدمات - Services */}
+    {serviceImages.map((imgName, index) => (
+        <div key={`ser-${index}`} className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="portfolio-wrap">
+                <img src={`/assets/img/portfolio/${imgName}.PNG`} className="img-fluid" alt="Service" />
+                <div className="portfolio-info">
+                    <h4>Our Services</h4>
+                    <div className="portfolio-links">
+                        <a href={`/assets/img/portfolio/${imgName}.PNG`} className="portfolio-lightbox" data-gallery="portfolioGallery">
+                            <i className="bx bx-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    ))}
 
                     </div>
                 </div>
