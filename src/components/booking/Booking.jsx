@@ -30,7 +30,7 @@ export default function Booking() {
 📅 To: ${form.toDate} - ⏰ ${form.toTime}
     `;
 
-    const phoneNumber = "00436607363869"; // 🔴 ضع رقمك هنا مع كود الدولة بدون +
+    const phoneNumber = "+436607363869"; // 🔴 ضع رقمك هنا مع كود الدولة بدون +
 
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
