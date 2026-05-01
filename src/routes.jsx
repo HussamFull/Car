@@ -12,6 +12,7 @@ import Datenschutzerklaerung from "./pages/policy/Datenschutzerklaerung.jsx";
 import Car from "./components/car/Car.jsx";
 
 import Apartment from "./components/apartment/Apartment.jsx";
+import Booking from "./components/booking/Booking.jsx";
 
 
 
@@ -69,7 +70,13 @@ const router = createBrowserRouter([
         {
         path: "/impressum",
         element: <Impressum />,
+      },
+        {
+        path: "/Booking",
+        element: <Booking />,
       }
+
+      
 
 
       

@@ -26,6 +26,16 @@ export default function Hero() {
 </h3>
         </div>
       </div>
+
+      <div className="col-xl-2 col-md-4">
+        <div className="icon-box">
+          <i className="ri-bar-chart-box-line" />
+          <h3><Link to={"Booking"}>Booking  </Link></h3>
+        </div>
+      </div>
+
+
+
       <div className="col-xl-2 col-md-4">
         <div className="icon-box">
           <i className="ri-bar-chart-box-line" />
