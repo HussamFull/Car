@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   const [mobileNavActive, setMobileNavActive] = useState(false);
+const [serviceOpen, setServiceOpen] = useState(false);
 
   const handleMobileNavToggle = () => {
     setMobileNavActive(!mobileNavActive);
@@ -26,17 +27,60 @@ export default function Navbar() {
               <li><Link to={""} className="nav-link scrollto active" href="#hero">Home</Link></li>
               <li><Link to={"About"} className="nav-link scrollto" href="#about">About</Link></li>
 
-             <ul>
-  <li class="nav-item dropdown">
-    <Link to="/Services" class="nav-link dropdown-toggle" href="#services" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Services
-    </Link>
-    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-      <li><Link to="/Apartment" class="dropdown-item" href="#apartment">Apartment</Link></li>
-      <li><Link to="/Car" class="dropdown-item" href="#car">Car</Link></li>
-    </ul>
-  </li>
-</ul>
+
+
+
+<li className="dropdown">
+
+  <a
+    href="#!"
+    onClick={(e) => {
+      if (window.innerWidth <= 991) {
+        e.preventDefault();
+        setServiceOpen(!serviceOpen);
+      }
+    }}
+    className="nav-link scrollto"
+  >
+    Services
+    <i
+      className={`bi ${
+        serviceOpen
+          ? "bi-chevron-up"
+          : "bi-chevron-down"
+      }`}
+      style={{ marginLeft: "8px" }}
+    />
+  </a>
+
+  <ul
+    className={
+      serviceOpen
+        ? "dropdown-active"
+        : ""
+    }
+  >
+    <li>
+      <Link to="/Apartment">
+        Apartment
+      </Link>
+    </li>
+
+    <li>
+      <Link to="/Car">
+        Car
+      </Link>
+    </li>
+  </ul>
+
+</li>
+
+
+
+
+
+
+
 
               <li>
     
