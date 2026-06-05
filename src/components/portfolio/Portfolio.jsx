@@ -208,8 +208,8 @@ const serviceImages = ["service1", "service2"];
                         <div className="swiper-wrapper">
                             <div className="swiper-slide">
                                 <div className="testimonial-item">
-                                    <img src="/assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="Herr Alnabelsi" />
-                                    <h3>Herr Alnabelsi</h3>
+                                    <img src="/assets/img/team/team-1.png" className="testimonial-img" alt="Herr Alnablsi" />
+                                    <h3>Herr Alnablsi</h3>
                                     <h4>Inhaber & Ihr Gastgeber in Wien</h4>
                                     <p>
                                         <i className="bx bxs-quote-alt-left quote-icon-left"></i>
